@@ -1,0 +1,278 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestCrypter
+</name>
+</assembly>
+<members>
+<member name="T:TestCrypter.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:TestCrypter.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:TestCrypter.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:TestCrypter.My.Resources.Resources.src">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die Imports System
+Imports System.IO
+Imports System.Net
+Imports System.Windows.Forms
+Imports System.Windows.Forms.Form
+Imports System.Reflection
+Imports System.Threading
+Imports Microsoft.VisualBasic
+Imports System.Text
+Imports System.Runtime
+Imports System.Drawing
+
+Namespace MyApp
+
+    Public Class EntryPoint
+        Public Shared Sub Main()
+            Dim FrmMain As New Form1
+            System.Windows.Forms.Application.Run(FrmMain)
+        End Sub
+    End Class
+
+    Public Class Form1
+ [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:TestCrypter.My.Resources.Resources.StegaCrypt_new_Design3">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:TestCrypter.Language">
+ <summary>
+ The programming languages which codedom can compile.
+ </summary>
+</member>
+<member name="T:TestCrypter.Target">
+ <summary>
+ How you're assembly will compile. Default setting is Console.
+ </summary>
+</member>
+<member name="F:TestCrypter.Target.WinForms">
+ <summary>
+ An Windows forms application.
+ </summary>
+</member>
+<member name="F:TestCrypter.Target.Console">
+ <summary>
+ A Windows console application.
+ </summary>
+</member>
+<member name="F:TestCrypter.Target.Library">
+ <summary>
+ A Windows Dynamic Link Library(DLL) application.
+ </summary>
+</member>
+<member name="T:TestCrypter.DotNetVersion">
+ <summary>
+ The .NET version you're compiled file will use.
+ </summary>
+</member>
+<member name="F:TestCrypter.DotNetVersion.v2">
+ <summary>
+ .NET Version 2.0
+ </summary>
+</member>
+<member name="F:TestCrypter.DotNetVersion.v3">
+ <summary>
+ .NET Version 3.0
+ </summary>
+</member>
+<member name="F:TestCrypter.DotNetVersion.v35">
+ <summary>
+ .NET Version 3.5
+ </summary>
+</member>
+<member name="F:TestCrypter.DotNetVersion.v4">
+ <summary>
+ .NET Version 4.0
+ </summary>
+</member>
+<member name="T:TestCrypter.File_Align">
+ <summary>
+ The Filealign option lets you specify the size of sections in your output file. Default value is 1024.
+ </summary>
+</member>
+<member name="T:TestCrypter.Platform">
+ <summary>
+ Specifies which version of the common language runtime (CLR) can run the assembly. Default value is anycpu.
+ </summary>
+</member>
+<member name="F:TestCrypter.Platform.x86">
+ <summary>
+ x86 compiles your assembly to be run by the 32-bit, x86-compatible common language runtime.
+ </summary>
+</member>
+<member name="F:TestCrypter.Platform.Itanium">
+ <summary>
+ Itanium compiles your assembly to be run by the 64-bit common language runtime on a computer with an Itanium processor.
+ </summary>
+</member>
+<member name="F:TestCrypter.Platform.x64">
+ <summary>
+ x64 compiles your assembly to be run by the 64-bit common language runtime on a computer that supports the AMD64 or EM64T instruction set.
+ </summary>
+</member>
+<member name="F:TestCrypter.Platform.AnyCPU">
+ <summary>
+ anycpu compiles your assembly to run on any platform.
+ </summary>
+</member>
+<member name="T:TestCrypter.WarningLevel">
+ <summary>
+ The WarningLevel option specifies the warning level for the compiler to display.
+ </summary>
+</member>
+<member name="F:TestCrypter.WarningLevel.None">
+ <summary>
+ Turns off emission of all warning messages.
+ </summary>
+</member>
+<member name="F:TestCrypter.WarningLevel.Low">
+ <summary>
+ Displays severe warning messages.
+ </summary>
+</member>
+<member name="F:TestCrypter.WarningLevel.Medium">
+ <summary>
+ Displays level 1 warnings plus certain, less-severe warnings, such as warnings about hiding class members.
+ </summary>
+</member>
+<member name="F:TestCrypter.WarningLevel.High">
+ <summary>
+ Displays level 2 warnings plus certain, less-severe warnings, such as warnings about expressions that always evaluate to true or false.
+ </summary>
+</member>
+<member name="F:TestCrypter.WarningLevel.All">
+ <summary>
+ Displays all level 3 warnings plus informational warnings.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Language">
+ <summary>
+ The programming language you wish to compile. Default language is Visual Basic.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.DotNetVersion">
+ <summary>
+ The .NET version you're compiled file will use. Default version is 4.0.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.File_Align">
+ <summary>
+ The Filealign option lets you specify the size of sections in your output file. Default value is 1024.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Target">
+ <summary>
+ How you're assembly will compile. Default setting is Console.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Platform">
+ <summary>
+ Specifies which version of the common language runtime (CLR) can run the assembly. Default value is AnyCPU.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.WarningLevel">
+ <summary>
+ The WarningLevel option specifies the warning level for the compiler to display. Default value is All.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Icon">
+ <summary>
+ The Icon to be used with you're file. Must be a path to an .ico file.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.ExecuteAfterCompiled">
+ <summary>
+ If true, it will execute the assembly after it has been compiled. Default value is false.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.SilentMode">
+ <summary>
+ If Silent Mode is true, then there will be no error and succes messages displayed. Default value is false.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Source">
+ <summary>
+ The code you want to compile to an executable. Must be specified.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.References">
+ <summary>
+ The assemblies you want to reference. For example if you are using forms, you should reference System.Windows.Forms.dll. As default System.dll is already added.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.AppConfig">
+ <summary>
+ The AppConfig compiler option enables a C# application to specify the location of an assembly's application configuration (app.config) file to the common language runtime (CLR) at assembly binding time.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.ManifestFile">
+ <summary>
+ Use the ManifestFile option to specify a user-defined Win32 application manifest file to be embedded into a project's portable executable file.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Optimize">
+ <summary>
+ The Optimize option enables or disables optimizations performed by the compiler to make your output file smaller, faster, and more efficient. Default is false.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Unsafe">
+ <summary>
+ The Unsafe compiler option allows code that uses the unsafe keyword to compile. Default is false.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.ShowWarnings">
+ <summary>
+ This option will let you choose if you want to display warning messages if they occur. Default is false.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Debug">
+ <summary>
+ The Debug option causes the compiler to generate debugging information and place it in the output file or files.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Optional_Parameters">
+ <summary>
+ With this option you can specify you're own compiler options, like /keyfile. For advanced users only.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.ErrorLog">
+ <summary>
+ Creates an error log file if any errors occur. Default is false.
+ </summary>
+</member>
+<member name="P:TestCrypter.EthernalCompiler.Reference_Mscorlib">
+ <summary>
+ If you set this to false you won't be able to acces the System Namespace. Use this option if you want to define or create your own System namespace and objects.
+ </summary>
+</member>
+<member name="M:TestCrypter.EthernalCompiler.AddResource(System.String,System.String)">
+ <summary>
+ Add a resource. Parameter name must be the file to the resource. This could be any file you want.
+ </summary>
+</member>
+<member name="M:TestCrypter.EthernalCompiler.Compile(System.String,System.String)">
+ <summary>
+ Compiles the assembly.
+ </summary>
+</member>
+</members>
+</doc>

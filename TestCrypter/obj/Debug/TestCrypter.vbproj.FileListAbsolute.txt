@@ -1,0 +1,24 @@
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\bin\Debug\TestCrypter.exe.config
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\bin\Debug\TestCrypter.exe
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\bin\Debug\TestCrypter.pdb
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\bin\Debug\TestCrypter.xml
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.Form1.resources
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.Resources.resources
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.vbproj.GenerateResource.cache
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.exe
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.xml
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.pdb
+C:\Users\Admin\source\repos\TestCrypter\TestCrypter\obj\Debug\TestCrypter.vbprojAssemblyReference.cache
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\bin\Debug\TestCrypter.exe.config
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\bin\Debug\TestCrypter.exe
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\bin\Debug\TestCrypter.pdb
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\bin\Debug\TestCrypter.xml
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.Form1.resources
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.Resources.resources
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.vbproj.GenerateResource.cache
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.exe
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.xml
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.pdb
+C:\Users\Admin\source\repos\TestCrypter - Kopie\TestCrypter\obj\Debug\TestCrypter.vbprojAssemblyReference.cache
