@@ -5,7 +5,7 @@ StegaCrypt is a crypter based on steganography. It offers encryption in one imag
 Detection on release date :
 4/38
 
-
+![preview](https://i.imgur.com/fhqAS6H.png)
 
 # Files supported
 
