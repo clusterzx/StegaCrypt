@@ -1,6 +1,6 @@
 # Welcome to StegaCrypt!
 
-StegaCrypt is a crypter based on steganography. It offers encryption in one image. The source file is saved with an image of your choice, attached to the file and decrypted at runtime.
+StegaCrypt is a tool based on steganography. It offers encryption in one image. The source file is saved with an image of your choice, attached to the file and decrypted at runtime.
 
 # What is LSB-Steganography?
 LSB-Steganography is a steganography technique in which we hide messages inside an image by replacing Least significant bit of image with the bits of message to be hidden.  
@@ -27,7 +27,7 @@ How the crypter works:
 
 ```mermaid
 graph LR
-A[Crypter] -- Path to payload --> B((Hide Payload in Image))
+A[Tool] -- Path to payload --> B((Hide Payload in Image))
 B --> C{Store Image in Stub}
 C --> D[Encryption done]
 ```
